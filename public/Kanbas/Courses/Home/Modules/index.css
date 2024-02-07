@@ -1,0 +1,17 @@
+.wd-modules,
+.wd-modules * {
+  border-radius: 0%;
+}
+
+.wd-modules {
+  margin: 5px;
+}
+
+.wd-modules > li > ul > li {
+    border-left: 4px solid green;
+  }
+
+.low-margin{
+    margin-right: 30px;
+}
+  
