@@ -10,5 +10,6 @@
         "vector": "cpp",
         "iterator": "cpp",
         "sstream": "cpp"
-    }
+    },
+    "typescript.tsdk": "node_modules/typescript/lib"
 }
