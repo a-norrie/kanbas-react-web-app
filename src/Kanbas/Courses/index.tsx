@@ -10,7 +10,7 @@ import Home from "./Home";
 import Nav from "./NavBar/Nav";
 
 
-function Courses() {
+function Courses({ courses }: { courses: any[]; }) {
   const { courseId } = useParams();
   const course = courses.find((course) => course._id === courseId);
 
