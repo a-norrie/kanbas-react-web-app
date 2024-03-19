@@ -23,13 +23,6 @@ function sayHello() {
   return(
     <>
       <h1>Assignment 4</h1>
-      <ul className="list-group">
-        {todos.map((todo) => (
-          <li className="list-group-item" key={todo.id}>
-            {todo.title}
-          </li>
-        ))}
-      </ul>
       <ClickEvent />
       <PassingDataOnEvent />
       <PassingFunctions  theFunction={sayHello} />
